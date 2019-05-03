@@ -27,7 +27,6 @@ public final class Calculator {
                 resultsOne[0] = -c / b;
                 return resultsOne;
             }
-
         }
         if (a != 0) {
             if (delta > 0) {
@@ -44,6 +43,6 @@ public final class Calculator {
                 return null;
             }
         }
-        return resultsOne;
+        return null;
     }
 }
